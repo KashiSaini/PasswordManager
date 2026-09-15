@@ -6,6 +6,7 @@ import os
 # create key if not exists
 generate_key()
 
+print("=== Password Manager ===\n")
 
 def load_data():
     if not os.path.exists("data.json"):
